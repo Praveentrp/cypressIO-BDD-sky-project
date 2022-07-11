@@ -19,12 +19,5 @@ Scenario: User sees a list of deals on the deals page
 Given I am on the '‘https://www.sky.com/deals’' page
 Then I see a list of deals with a price to it
 
-Scenario: 
-Given I am on the home page
-When I search ‘sky’ in the search bar
-Then I should see an editorial section
-
-
-
 
 
